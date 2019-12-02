@@ -14,12 +14,13 @@ public class Weather {
 
 
         Scanner scanner = new Scanner((InputStream) url.getContent());
-        String resulte = "";
+        String result = "";
         while (scanner.hasNext()){
-            resulte += scanner.nextLine();
+            result += scanner.nextLine();
         }
 
-        JSONObject object = new JSONObject(resulte);
+        //обработка обьектов json
+        JSONObject object = new JSONObject(result);
         model.setName(object.getString("name"));
 
 

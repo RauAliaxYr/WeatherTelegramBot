@@ -60,7 +60,7 @@ public class Bot extends TelegramLongPollingBot {
         KeyboardRow keyboardRowFirst = new KeyboardRow();
 
         keyboardRowFirst.add(new KeyboardButton("/help"));
-        keyboardRowFirst.add(new KeyboardButton("/searchGay"));
+        keyboardRowFirst.add(new KeyboardButton("/hello"));
 
         keyboardRows.add(keyboardRowFirst);
 

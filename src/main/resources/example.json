@@ -1,3 +1,5 @@
+
+//пример json
 {"coord": { "lon": 139,"lat": 35},
   "weather": [
     {
